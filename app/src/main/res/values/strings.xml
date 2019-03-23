@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">devs</string>
+    <string name="login">Login</string>
+    <string name="sign_up">sign up</string>
+    <string name="f_connect_using_facebook">f connect using facebook</string>
+    <string name="g_connect_using_gmail">G connect using Gmail</string>
+    <string name="slide1">The most fulfilling Shopping experience.</string>
+    <string name="devlogo">devlogo</string>
+    <string name="password">password</string>
+    <string name="email_address">Email Address</string>
+    <string name="todo">TODO</string>
+</resources>

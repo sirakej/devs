@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".welcomeSlide">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pageSlider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="140dp"
+        android:gravity="center"
+        android:orientation="horizontal" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_alignParentBottom="true">
+
+        <Button
+            android:id="@+id/log_in"
+            android:layout_width="wrap_content"
+            android:layout_height ="60dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="sans-serif-medium"
+            android:background="@drawable/button_background"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:layout_marginStart="10dp"
+            android:textStyle="normal"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="65dp"
+            android:background="@drawable/button_background"
+            android:text="@string/sign_up"
+            android:textColor="@android:color/white"
+            android:textSize="17sp"
+            android:textStyle="normal"
+            tools:ignore="ButtonStyle"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/g_mail"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="37dp"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/button_background"
+        android:text="@string/g_connect_using_gmail"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        />
+
+
+</RelativeLayout>
